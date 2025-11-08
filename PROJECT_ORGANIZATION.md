@@ -5,59 +5,112 @@
 
 ---
 
-## Overview
+## 📁 Directory Structure
 
-This document explains how the Powered Parachute Flight School project is organized across multiple repositories and managed through a single GitHub Project board.
-
----
-
-## Repository Structure
-
-### Three Main Repositories
-
-| Repository | Purpose | Tech Stack | Status |
-|------------|---------|------------|--------|
-| [**ppc-knowledgebase**](https://github.com/joel-wehr/ppc-knowledgebase) | Training content & docs | Markdown, PDFs | ✅ Complete |
-| [**ppc-mobile-app**](https://github.com/joel-wehr/ppc-mobile-app) | Flight log mobile app | .NET MAUI 9 | 🚧 In Progress |
-| [**ppc-training-platform**](https://github.com/joel-wehr/ppc-training-platform) | Web training platform | Next.js + FastAPI | 🎯 Planning |
-
----
-
-## Local File Organization
-
-### Repository Locations
+### Local Organization
 
 ```
-C:\Users\joelw\Documents\
-├── Projects\
-│   └── PPC-knowledgebase\          # Knowledge base repository
-│       ├── training_content\
-│       ├── platform-specs\
-│       └── reference-materials\
-│
-└── GitHub\
-    ├── ppc-mobile-app\              # Mobile app repository
-    │   ├── src\
-    │   ├── Models\
-    │   ├── Views\
-    │   └── Services\
-    │
-    └── ppc-training-platform\       # Training platform repository
-        ├── frontend\
-        ├── backend\
-        └── infrastructure\
+C:\Users\joelw\Documents\GitHub\
+└── ppc-flight-school\                    ← All PPC repos together
+    ├── ppc-knowledgebase\                ← Git repo
+    ├── ppc-mobile-app\                   ← Git repo
+    └── ppc-training-platform\            ← Git repo
 ```
 
-### Why Two Different Locations?
-
-- **`Documents\Projects\`** - Knowledge base (content-focused, already existed here)
-- **`Documents\GitHub\`** - Code repositories (development-focused)
-
-Both are git repositories and pushed to GitHub.
+**Key Principle:** All PPC Flight School repositories are contained in ONE parent folder for easy navigation and organization.
 
 ---
 
-## GitHub Project Management
+## 🗂️ Repository Details
+
+### 1. ppc-knowledgebase (PUBLIC)
+
+**Purpose:** Training content and documentation
+**Location:** `C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-knowledgebase\`
+**GitHub:** https://github.com/joel-wehr/ppc-knowledgebase
+
+**Contents:**
+- `training_content/` - 11 training modules (119,000 words)
+  - 01_foundations
+  - 02_regulations
+  - 03_weather
+  - 04_aircraft_systems
+  - 05_flight_operations
+  - 06_emergency_procedures
+  - 07_practical_skills
+  - 08_advanced_topics
+  - 09_maintenance
+  - 10_cross_country
+  - resources/
+- `CUSTOM_TRAINING_PLATFORM_SPECIFICATION.md` - Technical platform spec
+- `INTERACTIVE_COURSE_PLATFORM_ANALYSIS.md` - Platform analysis
+- `TRAINING_CONTENT_SUMMARY.md` - Content summary
+- `Powrachute-Pegasus-POH.pdf` - Reference material
+
+**Status:** ✅ Complete (v1.0)
+
+---
+
+### 2. ppc-mobile-app (PUBLIC)
+
+**Purpose:** .NET MAUI flight log app for iOS/Android/Windows
+**Location:** `C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-mobile-app\`
+**GitHub:** https://github.com/joel-wehr/ppc-mobile-app
+
+**Contents:**
+- `Models/` - Data models (Flight, ChecklistItem, etc.)
+- `ViewModels/` - MVVM view models
+- `Views/` - XAML pages
+- `Services/` - Business logic (Database, Checklists)
+- `Converters/` - XAML converters
+- `Platforms/` - iOS, Android, Windows, MacCatalyst
+- `Resources/` - Images, fonts, styles
+- `.claude/` - Claude context documentation
+
+**Tech Stack:**
+- .NET MAUI 9
+- SQLite database
+- MVVM pattern with CommunityToolkit.Mvvm
+- Uranium UI components
+
+**Features:**
+- 7 checklists (Preflight, Warm Up, Wing Layout, etc.)
+- Flight logging with automatic date grouping
+- In-Flight Practice counters
+- Flight history and details
+
+**Status:** 🚧 In Development (Milestone: v1.0 - Dec 31, 2025)
+
+---
+
+### 3. ppc-training-platform (PRIVATE)
+
+**Purpose:** AI-enhanced web training platform
+**Location:** `C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-training-platform\`
+**GitHub:** https://github.com/joel-wehr/ppc-training-platform
+
+**Planned Structure:**
+```
+ppc-training-platform/
+├── frontend/          # Next.js 14 + React + TypeScript
+├── backend/           # FastAPI + Python + PostgreSQL
+├── infrastructure/    # AWS CDK (TypeScript)
+├── shared/            # Shared types
+├── docs/              # Documentation
+└── docker-compose.yml # Local development
+```
+
+**Tech Stack:**
+- **Frontend:** Next.js 14, TypeScript, Tailwind CSS, Shadcn/ui
+- **Backend:** FastAPI, PostgreSQL 16+, SQLAlchemy, Redis
+- **AI:** Claude API, pgvector embeddings
+- **Infrastructure:** AWS (CloudFront, ECS, RDS, Lambda)
+
+**Status:** 🎯 Planning Phase (Milestone: v1.0 MVP - Mar 31, 2026)
+
+---
+
+## 🔗 GitHub Project Management
 
 ### Project Board
 
@@ -68,12 +121,9 @@ Both are git repositories and pushed to GitHub.
 Todo → In Progress → Done
 ```
 
-**Custom Fields:**
-- **Team** - Squad 1, Squad 2, Squad 3
-- **Start Date** - When work begins
-- **Target Date** - Expected completion
+**All issues from all 3 repositories automatically appear in this board.**
 
-### Labels Across All Repos
+### Labels (Across All Repos)
 
 | Label | Color | Purpose |
 |-------|-------|---------|
@@ -86,72 +136,136 @@ Todo → In Progress → Done
 
 ### Milestones
 
-**ppc-knowledgebase:**
-- ✅ v1.0 - Knowledge Base Complete (CLOSED)
-
-**ppc-mobile-app:**
-- 🎯 v1.0 - Mobile App Launch (Due: Dec 31, 2025)
-
-**ppc-training-platform:**
-- 🎯 v1.0 - Platform MVP (Due: Mar 31, 2026)
+| Repository | Milestone | Due Date | Status |
+|------------|-----------|----------|--------|
+| ppc-knowledgebase | v1.0 - Knowledge Base Complete | - | ✅ CLOSED |
+| ppc-mobile-app | v1.0 - Mobile App Launch | Dec 31, 2025 | 🎯 OPEN |
+| ppc-training-platform | v1.0 - Platform MVP | Mar 31, 2026 | 🎯 OPEN |
 
 ---
 
-## Working with the Project
+## 🚀 Development Workflow
 
-### Creating Issues
+### Starting Work
 
-Issues automatically appear in the project board when created in any of the 3 repositories.
+1. **Pick an issue** from the project board: https://github.com/users/joel-wehr/projects/1
+2. **Move to "In Progress"** (drag & drop on board)
+3. **Navigate to local repo:**
+   ```bash
+   cd "C:\Users\joelw\Documents\GitHub\ppc-flight-school\REPO_NAME"
+   ```
+4. **Create feature branch:**
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
 
-**Example workflow:**
+### Making Changes
+
 ```bash
-# Create issue in mobile app repo
-gh issue create --repo joel-wehr/ppc-mobile-app \
-  --title "Add weather integration" \
-  --body "Integrate AviationWeather.gov API" \
-  --label "mobile" \
-  --milestone "v1.0 - Mobile App Launch"
+# Make your changes
+# ... edit files ...
 
-# Issue automatically appears in project board as "Todo"
+# Stage and commit
+git add .
+git commit -m "Your commit message"
+
+# Push to GitHub
+git push origin feature/your-feature-name
 ```
 
-### Moving Issues Through Workflow
+### Creating Pull Requests
 
-1. **Todo** - Issue created, not started
-2. **In Progress** - Actively working on it
-3. **Done** - Completed and closed
+```bash
+# Using GitHub CLI
+gh pr create --title "Your PR title" --body "Description"
 
-Issues can be dragged between columns on the project board.
+# Or via web: https://github.com/joel-wehr/REPO_NAME/pulls
+```
 
-### Assigning Work
+### Completing Work
 
-Issues can be assigned to:
-- **Assignees** - Specific people
-- **Team** - Squad 1, Squad 2, or Squad 3 (custom field)
+1. **Merge PR** (via GitHub web or CLI)
+2. **Close issue:** Issue automatically moves to "Done" if linked to PR
+3. **Delete branch:**
+   ```bash
+   git checkout main
+   git pull
+   git branch -d feature/your-feature-name
+   ```
 
 ---
 
-## Current Project Status
+## 📝 GitHub CLI Quick Reference
+
+### Issues
+
+```bash
+# Create issue
+gh issue create --repo joel-wehr/ppc-mobile-app --title "..." --label "mobile"
+
+# List issues
+gh issue list --repo joel-wehr/ppc-mobile-app
+
+# View issue
+gh issue view 5 --repo joel-wehr/ppc-mobile-app
+
+# Close issue
+gh issue close 5 --repo joel-wehr/ppc-mobile-app
+```
+
+### Pull Requests
+
+```bash
+# Create PR (from current branch)
+gh pr create --title "..." --body "..."
+
+# List PRs
+gh pr list
+
+# View PR
+gh pr view 3
+
+# Merge PR
+gh pr merge 3
+```
+
+### Repositories
+
+```bash
+# View repo on GitHub
+gh repo view joel-wehr/ppc-mobile-app --web
+
+# Clone repo
+gh repo clone joel-wehr/ppc-mobile-app
+
+# Check repo status
+gh repo view joel-wehr/ppc-mobile-app
+```
+
+---
+
+## 🎯 Current Project Status
 
 ### ✅ Completed
 
+**Infrastructure:**
+- ✅ All 3 GitHub repositories created
+- ✅ GitHub Project board configured and linked
+- ✅ Consistent labels across all repos
+- ✅ Milestones defined
+- ✅ SSH authentication configured
+- ✅ Local directory structure organized
+
 **ppc-knowledgebase:**
-- 119,000 words of training content (11 modules)
-- Platform specifications (70,000+ words)
-- All reference materials organized
+- ✅ 119,000 words of training content (11 modules)
+- ✅ Platform specifications (70,000+ words)
+- ✅ All reference materials organized
 
 **ppc-mobile-app:**
-- .NET MAUI app with checklists
-- Flight logging system
-- SQLite database
-- iOS/Android support
-
-**Infrastructure:**
-- All 3 repos created and pushed to GitHub
-- GitHub Project board configured
-- Consistent labels across repos
-- Milestones defined
-- Initial issues created
+- ✅ .NET MAUI app with 7 checklists
+- ✅ Flight logging system with SQLite
+- ✅ iOS/Android/Windows support
+- ✅ In-Flight Practice counters
 
 ### 🚧 In Progress
 
@@ -161,219 +275,167 @@ Issues can be assigned to:
 ### 🎯 Planned
 
 **ppc-training-platform:**
-- Issue #1: Set up Next.js frontend
-- Issue #2: Set up FastAPI backend
-- Issue #3: Integrate Claude API
+- Issue #1: Set up Next.js frontend foundation
+- Issue #2: Set up FastAPI backend with PostgreSQL
+- Issue #3: Integrate Claude API for AI chat tutor
 
 **ppc-knowledgebase:**
-- Issue #1: Create scenario-based assessments
+- Issue #1: Create scenario-based assessment modules
 
 ---
 
-## Development Workflow
+## 🔍 Finding Things
 
-### 1. Pick an Issue
+### By Type
 
-Go to project board: https://github.com/users/joel-wehr/projects/1
-
-Filter by:
-- Label (what you want to work on)
-- Repository (which codebase)
-- Status (available work in "Todo")
-
-### 2. Move to "In Progress"
-
-Drag issue to "In Progress" column or:
-```bash
-# Via GitHub website - easiest
-# Or programmatically with gh CLI
+**Training Content:**
+```
+ppc-flight-school/ppc-knowledgebase/training_content/
 ```
 
-### 3. Work Locally
-
-```bash
-# Navigate to repository
-cd "C:\Users\joelw\Documents\GitHub\ppc-mobile-app"
-
-# Create feature branch
-git checkout -b feature/weather-integration
-
-# Make changes, commit
-git add .
-git commit -m "Add weather integration"
-
-# Push
-git push origin feature/weather-integration
+**Mobile App Code:**
+```
+ppc-flight-school/ppc-mobile-app/src/
+ppc-flight-school/ppc-mobile-app/Models/
+ppc-flight-school/ppc-mobile-app/Views/
 ```
 
-### 4. Create Pull Request
-
-```bash
-gh pr create --title "Add weather integration" --body "Implements issue #5"
+**Platform Specifications:**
+```
+ppc-flight-school/ppc-knowledgebase/CUSTOM_TRAINING_PLATFORM_SPECIFICATION.md
+ppc-flight-school/ppc-knowledgebase/INTERACTIVE_COURSE_PLATFORM_ANALYSIS.md
 ```
 
-### 5. Close Issue
+### By Task
 
-When work is complete:
-```bash
-gh issue close 5 --comment "Completed in PR #12"
-```
+**Want to add training content?**
+- Repo: `ppc-knowledgebase`
+- Location: `ppc-flight-school/ppc-knowledgebase/training_content/`
+- Label: `content`
 
-Issue automatically moves to "Done" column.
+**Want to add mobile features?**
+- Repo: `ppc-mobile-app`
+- Location: `ppc-flight-school/ppc-mobile-app/`
+- Label: `mobile`
+
+**Want to build web platform?**
+- Repo: `ppc-training-platform`
+- Location: `ppc-flight-school/ppc-training-platform/`
+- Label: `web-platform`
 
 ---
 
-## Repository Details
+## 🏗️ Best Practices
 
-### ppc-knowledgebase
+### Commit Messages
 
-**Purpose:** Training content and documentation
-
-**Contents:**
-- `training_content/` - 11 training modules
-- `platform-specs/` - Technical specifications
-- `reference-materials/` - Powrachute POH, etc.
-
-**No code** - Just markdown and PDFs.
-
-### ppc-mobile-app
-
-**Purpose:** .NET MAUI mobile app for iOS/Android
-
-**Contents:**
-- `Models/` - Data models
-- `ViewModels/` - MVVM view models
-- `Views/` - XAML pages
-- `Services/` - Business logic
-- `Platforms/` - iOS, Android, Windows specific code
-
-**Tech:** .NET MAUI 9, SQLite, C#
-
-### ppc-training-platform
-
-**Purpose:** AI-enhanced web training platform
-
-**Structure:**
+**Good:**
 ```
-ppc-training-platform/
-├── frontend/          # Next.js 14
-├── backend/           # FastAPI (Python)
-├── infrastructure/    # AWS CDK
-├── shared/            # Shared types
-└── docs/              # Documentation
+Add weather integration to flight log
+
+- Integrate AviationWeather.gov API
+- Display METAR data on flight log page
+- Cache weather data for 30 minutes
+- Add loading states and error handling
+
+Fixes #5
 ```
 
-**Tech:** Next.js, FastAPI, PostgreSQL, Redis, AWS
-
----
-
-## GitHub CLI Quick Reference
-
-### Issues
-
-```bash
-# Create issue
-gh issue create --repo joel-wehr/REPO_NAME --title "..." --label "..."
-
-# List issues
-gh issue list --repo joel-wehr/REPO_NAME
-
-# Close issue
-gh issue close NUMBER --repo joel-wehr/REPO_NAME
+**Bad:**
+```
+updates
 ```
 
-### Pull Requests
+### Branch Naming
 
-```bash
-# Create PR
-gh pr create --title "..." --body "..."
-
-# List PRs
-gh pr list
-
-# Merge PR
-gh pr merge NUMBER
 ```
-
-### Projects
-
-```bash
-# View project
-gh project view 1 --owner joel-wehr
-
-# All issues managed via web UI: https://github.com/users/joel-wehr/projects/1
+feature/weather-integration
+feature/ai-chat-tutor
+fix/flight-log-crash
+fix/ios-deployment
+infra/aws-setup
+docs/update-readme
 ```
-
----
-
-## Best Practices
 
 ### Issue Naming
 
-- **Good:** "Add weather integration to flight log page"
-- **Bad:** "Weather stuff"
-
-### Labels
-
-Use multiple labels for cross-cutting concerns:
-- `web-platform,ai` - AI features in web platform
-- `mobile,infrastructure` - Mobile app DevOps
-
-### Commits
-
-```bash
-# Good
-git commit -m "Add weather integration
-
-- Integrate AviationWeather.gov API
-- Display METAR data on flight log
-- Cache weather data for 30 minutes
-
-Fixes #5"
-
-# Bad
-git commit -m "updates"
-```
-
-### Branches
-
-```bash
-# Feature branches
-feature/weather-integration
-feature/ai-chat-tutor
-
-# Bug fixes
-fix/flight-log-crash
-fix/ios-deployment
-
-# Infrastructure
-infra/aws-setup
-infra/ci-cd-pipeline
-```
+**Good:** "Add weather integration to flight log page"
+**Bad:** "Weather stuff"
 
 ---
 
-## Archived Repositories
+## 🗑️ Archived & Removed
 
-All previous repositories (33 total) have been archived:
+### Old Folders (Cleaned Up)
+
+The following duplicate/old folders have been removed:
+- ❌ `Documents\GitHub\powered-parachute` (replaced by `ppc-flight-school\ppc-mobile-app`)
+- ❌ `Documents\GitHub\powered-parachute-aws` (orphaned)
+- ❌ `Documents\GitHub\ppc-knowledgebase` (duplicate)
+- ❌ `Documents\GitHub\ppc-training-platform` (duplicate)
+- ❌ `Documents\Projects\PPC-knowledgebase` (moved to GitHub folder)
+
+### Old Repositories (Archived)
+
+33 old repositories have been archived and hidden from the main view:
 - Electric Imp projects
 - IoT projects
 - Pitchfork projects
 - Eagle libraries
 - etc.
 
-**Status:** Hidden from main view, still accessible if needed
-**Access:** https://github.com/joel-wehr?tab=repositories&q=&type=archived
+**Access archived repos:** https://github.com/joel-wehr?tab=repositories&q=&type=archived
 
 ---
 
-## Questions?
+## 📚 Additional Resources
 
-- **Project Board:** https://github.com/users/joel-wehr/projects/1
-- **Knowledge Base:** https://github.com/joel-wehr/ppc-knowledgebase
-- **Mobile App:** https://github.com/joel-wehr/ppc-mobile-app
-- **Training Platform:** https://github.com/joel-wehr/ppc-training-platform
+### Documentation
+
+- **This file:** Project organization and workflows
+- **Mobile app context:** `.claude/claude.md` in `ppc-mobile-app`
+- **Training content index:** `README.md` in `training_content/`
+- **Platform specs:** `CUSTOM_TRAINING_PLATFORM_SPECIFICATION.md`
+
+### Links
+
+- **GitHub Project Board:** https://github.com/users/joel-wehr/projects/1
+- **ppc-knowledgebase:** https://github.com/joel-wehr/ppc-knowledgebase
+- **ppc-mobile-app:** https://github.com/joel-wehr/ppc-mobile-app
+- **ppc-training-platform:** https://github.com/joel-wehr/ppc-training-platform
 
 ---
 
-**Everything is connected through the GitHub Project board. Start there!**
+## 🆘 Common Tasks
+
+### Pull latest changes from all repos
+
+```bash
+cd "C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-knowledgebase" && git pull
+cd "C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-mobile-app" && git pull
+cd "C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-training-platform" && git pull
+```
+
+### Check status of all repos
+
+```bash
+cd "C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-knowledgebase" && git status
+cd "C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-mobile-app" && git status
+cd "C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-training-platform" && git status
+```
+
+### Open project board
+
+```bash
+# Via GitHub CLI
+gh project view 1 --owner joel-wehr --web
+
+# Or just navigate to:
+# https://github.com/users/joel-wehr/projects/1
+```
+
+---
+
+**Everything is organized and ready to build!** 🚁✨
+
+Start at the project board: https://github.com/users/joel-wehr/projects/1
