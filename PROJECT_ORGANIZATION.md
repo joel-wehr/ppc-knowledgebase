@@ -13,7 +13,6 @@
 C:\Users\joelw\Documents\GitHub\
 └── ppc-flight-school\                    ← All PPC repos together
     ├── ppc-knowledgebase\                ← Git repo
-    ├── ppc-mobile-app\                   ← Git repo
     └── ppc-training-platform\            ← Git repo
 ```
 
@@ -51,39 +50,7 @@ C:\Users\joelw\Documents\GitHub\
 
 ---
 
-### 2. ppc-mobile-app (PUBLIC)
-
-**Purpose:** .NET MAUI flight log app for iOS/Android/Windows
-**Location:** `C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-mobile-app\`
-**GitHub:** https://github.com/joel-wehr/ppc-mobile-app
-
-**Contents:**
-- `Models/` - Data models (Flight, ChecklistItem, etc.)
-- `ViewModels/` - MVVM view models
-- `Views/` - XAML pages
-- `Services/` - Business logic (Database, Checklists)
-- `Converters/` - XAML converters
-- `Platforms/` - iOS, Android, Windows, MacCatalyst
-- `Resources/` - Images, fonts, styles
-- `.claude/` - Claude context documentation
-
-**Tech Stack:**
-- .NET MAUI 9
-- SQLite database
-- MVVM pattern with CommunityToolkit.Mvvm
-- Uranium UI components
-
-**Features:**
-- 7 checklists (Preflight, Warm Up, Wing Layout, etc.)
-- Flight logging with automatic date grouping
-- In-Flight Practice counters
-- Flight history and details
-
-**Status:** 🚧 In Development (Milestone: v1.0 - Dec 31, 2025)
-
----
-
-### 3. ppc-training-platform (PRIVATE)
+### 2. ppc-training-platform (PRIVATE)
 
 **Purpose:** AI-enhanced web training platform
 **Location:** `C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-training-platform\`
@@ -121,7 +88,7 @@ ppc-training-platform/
 Todo → In Progress → Done
 ```
 
-**All issues from all 3 repositories automatically appear in this board.**
+**All issues from all repositories automatically appear in this board.**
 
 ### Labels (Across All Repos)
 
@@ -139,7 +106,6 @@ Todo → In Progress → Done
 | Repository | Milestone | Due Date | Status |
 |------------|-----------|----------|--------|
 | ppc-knowledgebase | v1.0 - Knowledge Base Complete | - | ✅ CLOSED |
-| ppc-mobile-app | v1.0 - Mobile App Launch | Dec 31, 2025 | 🎯 OPEN |
 | ppc-training-platform | v1.0 - Platform MVP | Mar 31, 2026 | 🎯 OPEN |
 
 ---
@@ -201,16 +167,16 @@ gh pr create --title "Your PR title" --body "Description"
 
 ```bash
 # Create issue
-gh issue create --repo joel-wehr/ppc-mobile-app --title "..." --label "mobile"
+gh issue create --repo joel-wehr/ppc-knowledgebase --title "..." --label "content"
 
 # List issues
-gh issue list --repo joel-wehr/ppc-mobile-app
+gh issue list --repo joel-wehr/ppc-knowledgebase
 
 # View issue
-gh issue view 5 --repo joel-wehr/ppc-mobile-app
+gh issue view 5 --repo joel-wehr/ppc-knowledgebase
 
 # Close issue
-gh issue close 5 --repo joel-wehr/ppc-mobile-app
+gh issue close 5 --repo joel-wehr/ppc-knowledgebase
 ```
 
 ### Pull Requests
@@ -233,13 +199,13 @@ gh pr merge 3
 
 ```bash
 # View repo on GitHub
-gh repo view joel-wehr/ppc-mobile-app --web
+gh repo view joel-wehr/ppc-knowledgebase --web
 
 # Clone repo
-gh repo clone joel-wehr/ppc-mobile-app
+gh repo clone joel-wehr/ppc-knowledgebase
 
 # Check repo status
-gh repo view joel-wehr/ppc-mobile-app
+gh repo view joel-wehr/ppc-knowledgebase
 ```
 
 ---
@@ -249,7 +215,7 @@ gh repo view joel-wehr/ppc-mobile-app
 ### ✅ Completed
 
 **Infrastructure:**
-- ✅ All 3 GitHub repositories created
+- ✅ All GitHub repositories created
 - ✅ GitHub Project board configured and linked
 - ✅ Consistent labels across all repos
 - ✅ Milestones defined
@@ -260,17 +226,6 @@ gh repo view joel-wehr/ppc-mobile-app
 - ✅ 119,000 words of training content (11 modules)
 - ✅ Platform specifications (70,000+ words)
 - ✅ All reference materials organized
-
-**ppc-mobile-app:**
-- ✅ .NET MAUI app with 7 checklists
-- ✅ Flight logging system with SQLite
-- ✅ iOS/Android/Windows support
-- ✅ In-Flight Practice counters
-
-### 🚧 In Progress
-
-**ppc-mobile-app:**
-- Issue #1: Deploy iOS app to TestFlight
 
 ### 🎯 Planned
 
@@ -295,9 +250,8 @@ ppc-flight-school/ppc-knowledgebase/training_content/
 
 **Mobile App Code:**
 ```
-ppc-flight-school/ppc-mobile-app/src/
-ppc-flight-school/ppc-mobile-app/Models/
-ppc-flight-school/ppc-mobile-app/Views/
+ppc-pilot-ios/        # Native iOS app (Swift / SwiftUI)
+ppc-pilot-android/    # Native Android app (Kotlin / Jetpack Compose)
 ```
 
 **Platform Specifications:**
@@ -314,8 +268,7 @@ ppc-flight-school/ppc-knowledgebase/INTERACTIVE_COURSE_PLATFORM_ANALYSIS.md
 - Label: `content`
 
 **Want to add mobile features?**
-- Repo: `ppc-mobile-app`
-- Location: `ppc-flight-school/ppc-mobile-app/`
+- Repos: `ppc-pilot-ios` (Swift/SwiftUI), `ppc-pilot-android` (Kotlin/Compose)
 - Label: `mobile`
 
 **Want to build web platform?**
@@ -369,7 +322,7 @@ docs/update-readme
 ### Old Folders (Cleaned Up)
 
 The following duplicate/old folders have been removed:
-- ❌ `Documents\GitHub\powered-parachute` (replaced by `ppc-flight-school\ppc-mobile-app`)
+- ❌ `Documents\GitHub\powered-parachute` (orphaned)
 - ❌ `Documents\GitHub\powered-parachute-aws` (orphaned)
 - ❌ `Documents\GitHub\ppc-knowledgebase` (duplicate)
 - ❌ `Documents\GitHub\ppc-training-platform` (duplicate)
@@ -393,7 +346,6 @@ The following duplicate/old folders have been removed:
 ### Documentation
 
 - **This file:** Project organization and workflows
-- **Mobile app context:** `.claude/claude.md` in `ppc-mobile-app`
 - **Training content index:** `README.md` in `training_content/`
 - **Platform specs:** `CUSTOM_TRAINING_PLATFORM_SPECIFICATION.md`
 
@@ -401,7 +353,6 @@ The following duplicate/old folders have been removed:
 
 - **GitHub Project Board:** https://github.com/users/joel-wehr/projects/1
 - **ppc-knowledgebase:** https://github.com/joel-wehr/ppc-knowledgebase
-- **ppc-mobile-app:** https://github.com/joel-wehr/ppc-mobile-app
 - **ppc-training-platform:** https://github.com/joel-wehr/ppc-training-platform
 
 ---
@@ -412,7 +363,6 @@ The following duplicate/old folders have been removed:
 
 ```bash
 cd "C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-knowledgebase" && git pull
-cd "C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-mobile-app" && git pull
 cd "C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-training-platform" && git pull
 ```
 
@@ -420,7 +370,6 @@ cd "C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-training-platform" && 
 
 ```bash
 cd "C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-knowledgebase" && git status
-cd "C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-mobile-app" && git status
 cd "C:\Users\joelw\Documents\GitHub\ppc-flight-school\ppc-training-platform" && git status
 ```
 
