@@ -520,8 +520,9 @@ puts you squarely in sport-pilot territory.
 
 *Sources: 14 CFR §§ 61.315, 61.316, 61.327, 61.329, 61.331, 61.113(i),
 Part 103; MOSAIC Final Rule, **90 FR 35034** (published July 24, 2025;
-effective October 22, 2025; RIN 2120-AL50); FAA-H-8083-29 PPC Flying
-Handbook MOSAIC addendum (Oct 2025); PHAK FAA-H-8083-25C MOSAIC
+effective October 22, 2025; RIN 2120-AL50;
+federalregister.gov/documents/2025/07/24/2025-13972); FAA-H-8083-29 PPC
+Flying Handbook MOSAIC addendum (Oct 2025); PHAK FAA-H-8083-25C MOSAIC
 addendum; FAA InFO 26006.*
 
 ---
