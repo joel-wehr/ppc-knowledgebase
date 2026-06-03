@@ -16,6 +16,14 @@ Emergency procedures are the skills and knowledge needed when something goes wro
 
 **Remember**: Most emergencies are survivable if handled correctly. Training and preparation make the difference.
 
+> **Companion lesson**: PPC-specific emergencies — **ballistic reserve
+> (BRS)** decision-making, **canopy malfunctions** (line-over/cravat,
+> asymmetric collapse, surge/dive, deep/parachutal stall, riser twist),
+> and **water landings/ditching** — are covered in depth in
+> [Canopy Malfunctions, Ballistic Reserve, and Water Landings](02_canopy_brs_water.md).
+> The wing-specific and reserve content below is intentionally brief
+> because that lesson treats it fully.
+
 ---
 
 ## Emergency Mindset and Preparation
@@ -206,11 +214,23 @@ Emergency procedures are the skills and knowledge needed when something goes wro
 - Asymmetric wing shape
 
 **Response**:
-1. **Counteract**: Apply opposite steering
-2. **Assess**: Can you maintain control?
-3. **Controlled Descent**: Plan landing immediately
-4. **Spiral In**: May need to spiral down
-5. **Flare on Good Side**: Use functioning side to slow
+1. **Counteract**: Apply smooth opposite steering / weight shift — do
+   not stab the controls
+2. **Assess**: Can you maintain controlled flight, or is the turn
+   tightening toward an unrecoverable spiral?
+3. **If controllable**: plan a straight-in landing immediately on the
+   best surface
+4. **If unrecoverable and you have a BRS and altitude above its minimum**:
+   deploy the reserve — a tightening spiral is a BRS scenario
+5. **Last resort, low and no reserve**: manage the descent and flare on
+   the functioning side to slow
+
+> **Important — read the companion lesson.** "Spiral in and flare on the
+> good side" is a *last-resort, low-altitude* action, not the preferred
+> response. Major line/riser failures, collapses, line-overs, and the
+> BRS decision are covered with proper recognition-and-response detail in
+> [Canopy Malfunctions, Ballistic Reserve, and Water Landings](02_canopy_brs_water.md).
+> Do not rely on the brief steps above in isolation.
 
 **Landing**:
 - Choose area quickly
