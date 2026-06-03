@@ -22,8 +22,9 @@ can pull them up in the eCFR viewer, but the goal of this chapter is to
 explain *why* the rules look the way they do and *how* a working PPC pilot
 applies them in the real world.
 
-> **MOSAIC is now in effect.** The FAA's MOSAIC final rule changed several
-> sport-pilot privileges effective **October 22, 2025** — most notably it
+> **MOSAIC is now in effect.** The FAA's MOSAIC final rule (90 FR 35034,
+> published July 24, 2025) changed several sport-pilot privileges
+> **effective October 22, 2025** — most notably it
 > opened **night flight** to sport pilots (with training, an endorsement,
 > and a medical) and now lets sport pilots **share operating expenses**
 > with a passenger. This module reflects the post-MOSAIC rules as they
@@ -412,16 +413,32 @@ out which set of rules *you* operate under.
 Certification*. It is the FAA's 2025 overhaul of the light-sport
 framework — the rules governing what counts as a light-sport aircraft,
 what a sport pilot may fly, and how such aircraft are certificated. The
-**MOSAIC final rule** was issued in 2025 and rolls out in two waves:
+**MOSAIC final rule** was **published in the Federal Register on July 24,
+2025 (90 FR 35034; RIN 2120-AL50)** and rolls out in two waves. The
+rule's own DATES section states it is *"effective October 22, 2025,
+except for [specified amendatory instructions], which are effective
+July 24, 2026"*:
 
 | What changed | Effective date |
 |---|---|
-| **Sport-pilot privileges** (night via § 61.329, expense sharing, the new aircraft-eligibility framework, endorsements) — changes to how you may fly **existing** aircraft | **October 22, 2025** (in effect now) |
-| **Airworthiness certification of new aircraft** (the manufacturing/design standards for newly built light-sport aircraft) | **July 24, 2026** |
+| **Sport-pilot privileges and operating rules** (night via § 61.329, expense sharing under § 61.315(b), the new § 61.316 aircraft-eligibility framework, the § 61.327/§ 61.331 endorsements) — how you may fly **existing** aircraft | **October 22, 2025** (90 days after publication — in effect now) |
+| **Airworthiness certification of new aircraft** (the manufacturing/design standards for newly built light-sport aircraft — the specific amendatory instructions carved out in the DATES section) | **July 24, 2026** |
 
 For a sport-pilot PPC operator, the wave that matters right now is the
-first one: the privilege changes are already live as of this writing
-(June 2026). The second wave is mostly a manufacturer concern.
+first one: the privilege changes have been live since **October 22,
+2025**, so as of this writing (June 2026) they are already the law you
+fly under. The second wave (July 24, 2026) is mostly a manufacturer
+concern.
+
+> **Effective-date provenance (verified against a primary source):** the
+> sport-pilot privilege changes — including the § 61.329 night privilege
+> — took effect **October 22, 2025**, *not* 2026. This is the rule's own
+> DATES section in the Federal Register (**90 FR 35034**, published July
+> 24, 2025; effective 90 days later). If you've seen 2026 cited as the
+> effective date for sport-pilot *privileges*, that is an error — the
+> only July 24, 2026 date in MOSAIC applies to the carved-out
+> new-aircraft airworthiness-certification instructions, not to pilot
+> privileges.
 
 ### The pieces of MOSAIC a PPC pilot should know
 
@@ -502,7 +519,8 @@ every Part 103 number."** A single honest "no" on the Part 103 side
 puts you squarely in sport-pilot territory.
 
 *Sources: 14 CFR §§ 61.315, 61.316, 61.327, 61.329, 61.331, 61.113(i),
-Part 103; MOSAIC Final Rule (FAA, 2025); FAA-H-8083-29 PPC Flying
+Part 103; MOSAIC Final Rule, **90 FR 35034** (published July 24, 2025;
+effective October 22, 2025; RIN 2120-AL50); FAA-H-8083-29 PPC Flying
 Handbook MOSAIC addendum (Oct 2025); PHAK FAA-H-8083-25C MOSAIC
 addendum; FAA InFO 26006.*
 
