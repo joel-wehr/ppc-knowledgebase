@@ -219,7 +219,10 @@ day.
 
 **The lesson of the example**: with two adults, a PPC's useful load gets
 tight fast, and **fuel is usually the only variable you can trim** — which
-trades directly against endurance and your 30-minute reserve (§ 91.151).
+trades directly against endurance and the **§ 91.151 airplane 30-minute
+day-VFR reserve, used here as a conservative planning floor** (§ 91.151's
+text governs airplanes, so a PPC isn't strictly bound by it — but planning
+to land with less than 30 minutes' fuel is poor practice in any aircraft).
 Run the numbers *before* you strap in, not after the cart won't climb.
 
 ### If your aircraft has a CG/hang-point range

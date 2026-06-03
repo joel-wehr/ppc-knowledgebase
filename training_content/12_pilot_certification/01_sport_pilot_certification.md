@@ -447,13 +447,18 @@ concern.
 - **A new aircraft-eligibility framework (§ 61.316).** MOSAIC replaced
   the old fixed "light-sport aircraft" definition (which had a 1,320-lb
   weight cap and other fixed numbers) with **performance-based**
-  criteria. The headline number is a **clean stall speed (V<sub>S1</sub>)
-  of 59 knots CAS or less** for the aircraft a sport pilot may fly.
-  There is **no fixed maximum takeoff weight** anymore; eligibility is
-  driven by stall speed and other performance/design limits. A sport
-  pilot may now fly aircraft with **up to four seats**, but the
-  occupancy limit for a sport pilot acting as PIC is **still you plus
-  one passenger** — the extra seats don't mean extra people.
+  criteria, and — importantly — the numbers **differ by aircraft
+  category.** For **powered parachutes (and other non-airplane
+  categories)** the limits are a **clean stall speed (V<sub>S1</sub>) of
+  45 knots CAS or less** and a **maximum seating capacity of two
+  persons.** (For *airplanes*, the corresponding figures are higher —
+  V<sub>S1</sub> ≤ 59 KCAS and up to four seats — but those are the
+  airplane numbers and do **not** apply to a PPC. Don't carry the
+  airplane figures over to your category.) There is **no fixed maximum
+  takeoff weight** anymore; eligibility is driven by stall speed and
+  other performance/design limits. Note that a PPC's two-seat ceiling
+  already matches the sport-pilot occupancy rule, so for us "you plus one
+  passenger" is both the aircraft limit and the pilot limit.
 - **Endorsements for capable aircraft.** Faster or more complex aircraft
   require add-on training and endorsements: **§ 61.327** for a high
   maximum speed (V<sub>H</sub> above 87 knots CAS), and **§ 61.331** for
@@ -463,11 +468,13 @@ concern.
   part of the same MOSAIC framework and worth recognizing on a test.
 
 > **Why this rarely bites a PPC pilot:** a powered parachute stalls far
-> below 59 knots, cruises around 30 mph, and has no retractable gear or
-> variable prop. Practically every two-place PPC already sits well
-> inside the MOSAIC aircraft-eligibility box. The MOSAIC changes that
-> actually affect your flying are the **night privilege** and **expense
-> sharing**; the aircraft-eligibility math is mostly background.
+> below the 45-KCAS non-airplane limit, is inherently a two-seat (or
+> single-seat) design, cruises around 30 mph, and has no retractable
+> gear or variable prop. Practically every two-place PPC already sits
+> well inside the MOSAIC aircraft-eligibility box. The MOSAIC changes
+> that actually affect your flying are the **night privilege** and
+> **expense sharing**; the aircraft-eligibility math is mostly
+> background.
 
 ### Part 103 ultralight vs. light-sport / sport-pilot PPC — a decision tree
 
@@ -860,12 +867,12 @@ beginning of that responsibility.
 | Flight review | § 61.56 | every 24 calendar months |
 | Knowledge test validity | § 61.39 | 24 calendar months |
 | Address change report | § 61.60 | within 30 days |
-| Max passengers | § 61.315 | 1 (even in a 4-seat MOSAIC aircraft) |
+| Max passengers | § 61.315 | 1 |
 | Max altitude | § 61.315 | 10,000 MSL or 2,000 AGL, whichever higher |
 | Aircraft V<sub>H</sub> without endorsement | § 61.315 / § 61.327 | 87 knots CAS |
 | Expense sharing with passenger | § 61.315(b) | allowed; PIC pays ≥ half (post-MOSAIC) |
 | Night privilege | § 61.329 | night training + endorsement + FAA medical or BasicMed |
-| Sport-pilot aircraft eligibility | § 61.316 | clean stall V<sub>S1</sub> ≤ 59 KCAS (post-MOSAIC) |
+| Sport-pilot aircraft eligibility (PPC / non-airplane) | § 61.316 | clean stall V<sub>S1</sub> ≤ 45 KCAS, 2-seat max (airplanes: ≤ 59 KCAS / 4 seats) |
 | MOSAIC privilege changes effective | — | Oct 22, 2025 |
 
 For the verbatim regulatory text on any of these, click any § citation
