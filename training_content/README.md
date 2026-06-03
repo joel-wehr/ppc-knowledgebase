@@ -7,9 +7,9 @@
 
 This repository contains comprehensive, authoritative training materials for powered parachute pilots. The content is designed to be consumed by both AI training systems and human students, covering all aspects of powered parachute operation from basic principles through advanced techniques and emergency procedures.
 
-**Total Content**: Approximately 119,000 words of professional training material
+**Total Content**: Approximately 63,000 words of professional training material across 13 module folders plus the Part 103 resource. (The per-file word counts elsewhere in this README are nominal/approximate and predate later edits; the figures here describe the actual on-disk content.)
 
-**Last Updated**: November 8, 2025
+**Last Updated**: June 3, 2026
 
 ---
 
@@ -111,6 +111,14 @@ This repository contains comprehensive, authoritative training materials for pow
   - Flare and touchdown
   - Post-flight procedures
   - Common errors and prevention
+- **02_weight_and_balance.md**
+  - Why weight matters in a PPC (stall speed, climb, structure)
+  - Datum / arm / moment / CG vocabulary
+  - PPC-specific hang-point & CG-and-trim concept
+  - Wing loading
+  - Weight × density-altitude performance interplay
+  - Worked (illustrative) loaded weight computation
+  - ARROW weight-and-balance records for LSA
 
 ### Emergency Procedures
 
@@ -135,6 +143,10 @@ This repository contains comprehensive, authoritative training materials for pow
   - Survival after forced landing
   - Emergency communications
   - NTSB reporting requirements
+- **02_canopy_brs_water.md** (PPC-specific emergencies)
+  - Ballistic reserve / BRS: when to use, when NOT to, hard-deck decision, deployment, repack/service life
+  - Canopy malfunctions: asymmetric collapse, line-over/cravat, surge/dive, deep/parachutal stall + PIO, riser twist
+  - Water landings / ditching: wing-over-pilot hazard, egress, hook knife, PFD
 
 ### Practical Skills
 
@@ -169,6 +181,14 @@ This repository contains comprehensive, authoritative training materials for pow
   - Developing personal minimums
   - ADM tools (PAVE, 3P, DECIDE, 5Ps)
   - Continuous improvement
+- **02_aeromedical_human_factors.md** (ACS Area III)
+  - Hypoxia, hyperventilation
+  - Carbon monoxide (PPC-specific seating hazard)
+  - Spatial disorientation, vestibular & visual/landing illusions
+  - Vision & visual scanning, night vision
+  - Noise/hearing, dehydration/heat/cold
+  - Alcohol, drugs & medication; fatigue & stress
+  - IMSAFE self-assessment
 
 ### Maintenance and Care
 
@@ -421,13 +441,32 @@ Pilots are responsible for:
 
 ## Document Version Control
 
-**Current Version**: 2.0
-**Last Updated**: November 8, 2025
-**Total Word Count**: ~119,000 words
-**Number of Modules**: 11 major modules
+**Current Version**: 2.1
+**Last Updated**: June 3, 2026
+**Total Word Count**: ~60,000 words (actual on-disk content)
+**Number of Modules**: 13 module folders + Part 103 resource
 **Format**: Markdown (.md)
 
+> **Note on earlier word counts**: the v2.0 header advertised ~119,000
+> words / 11 modules. That figure was nominal and roughly double the
+> actual on-disk content; the numbers above reflect what is actually in
+> `training_content/`. Modules 12 (certification) and 13 (general
+> operating rules) were added after v2.0; there is no module 11 (the
+> numbering skips it).
+
 ### Change History
+- **v2.1** (2026-06-03): Content accuracy + safety pass
+  - Corrected MOSAIC-stale claims in the certification module (sport-pilot
+    night privilege via § 61.329; expense sharing now allowed under
+    § 61.315(b)); added a MOSAIC explainer and a Part 103-vs-LSA decision
+    tree; noted Part 103 unchanged by MOSAIC in the Part 103 resource
+  - Added PPC-specific emergency lesson (ballistic reserve/BRS, canopy
+    malfunctions, water ditching) and qualified the prior thin
+    line-break/spiral-in guidance
+  - Added Aeromedical/Human Factors lesson (ACS Area III) and Weight &
+    Balance lesson (ACS Area VI)
+  - Corrected the stale word count / module count in this README
+
 - **v2.0** (2025-11-08): Expanded comprehensive release
   - All v1.0 content (79,000 words)
   - Added airspace operations module (10,000 words)

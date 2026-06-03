@@ -11,6 +11,20 @@
 
 Part 103 defines the regulatory framework for ultralight vehicles in the United States. These regulations establish the most lenient certification requirements in aviation while maintaining safety standards for operations.
 
+> **MOSAIC did not change Part 103.** The FAA's 2025 MOSAIC final rule
+> overhauled the *light-sport* / sport-pilot framework (14 CFR Parts 61
+> and 91), but it left the **Part 103 ultralight** definition and
+> operating rules untouched — single occupant, < 254 lb empty (excluding
+> floats and safety devices such as a ballistic reserve), ≤ 5 U.S.
+> gallons of fuel, ≤ 55 knots CAS top speed, ≤ 24 knots CAS power-off
+> stall, daylight only. If your PPC meets every one of those numbers and
+> you fly it solo, you are a Part 103 operator and MOSAIC's sport-pilot
+> changes (night, expense sharing, the new aircraft-eligibility math) do
+> not apply to you. The moment you add a second seat/occupant or exceed
+> any Part 103 limit, you cross into the sport-pilot light-sport world.
+> For the full decision tree, see the **Sport Pilot Certification**
+> module, Section 6b.
+
 ### What is an Ultralight Vehicle?
 
 An ultralight vehicle is a vehicle that:
