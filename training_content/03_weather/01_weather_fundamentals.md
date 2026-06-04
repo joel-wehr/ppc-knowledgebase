@@ -1,13 +1,15 @@
-# Weather and Meteorology for Powered Parachute Pilots
+# Weather and Meteorology for Pilots
 ## Understanding Weather for Safe Flight Decisions
 
 ---
 
 ## Introduction
 
-Weather is the single most important factor in powered parachute flight safety. Unlike more robust aircraft, PPCs are highly sensitive to wind, turbulence, and atmospheric conditions. Understanding meteorology and making sound weather-based decisions is not optional—it is fundamental to safe operation.
+Weather is one of the most important factors in flight safety. Understanding meteorology and making sound weather-based decisions is not optional—it is fundamental to safe operation. Light aircraft are more sensitive to wind, turbulence, and atmospheric conditions than larger, faster aircraft, so a working knowledge of the atmosphere is essential.
 
 **Key Principle**: When in doubt about weather conditions, don't fly. No flight is worth compromising safety.
+
+> **Aircraft-specific limits.** The general weather *theory* in this chapter applies to every category of aircraft. The specific wind, gust, crosswind, and personal-minimums *numbers* differ sharply by aircraft category — they live in the category-specific weather chapter for your aircraft.
 
 ---
 
@@ -26,7 +28,7 @@ The atmosphere is composed of:
 
 ### Layers of the Atmosphere
 
-PPCs operate in the **Troposphere** - the lowest layer where:
+Light aircraft operate in the **Troposphere** - the lowest layer where:
 - All weather occurs
 - Temperature generally decreases with altitude
 - Contains approximately 80% of atmosphere's mass
@@ -67,7 +69,7 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 **Coriolis Effect**: Earth's rotation deflects moving air
 - Deflects right in Northern Hemisphere
 - Deflects left in Southern Hemisphere
-- Negligible effect on local winds for PPC operations
+- Negligible effect on local winds for low-altitude operations
 
 ### Wind at Different Altitudes
 
@@ -81,20 +83,18 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 - Above friction layer (typically 2,000+ feet AGL)
 - Flows parallel to isobars
 - Faster and smoother than surface wind
-- Less relevant to PPC operations
 
 **Low-Level Wind Gradient**:
 - Wind speed increases with altitude in first 100-200 feet
-- Critical concept for PPC operations
 - Most pronounced with strong surface winds
-- Creates shear zone
+- Creates a shear zone near the surface
 
 **Practical Example**:
 - Surface wind: 5 mph
 - Wind at 100 feet: 12 mph
 - This gradient creates significant shear and turbulence
 
-### Wind Effects on PPC Operations
+### Wind Effects on Flight Operations
 
 **Headwind**:
 - Reduces groundspeed
@@ -108,20 +108,13 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 - Increases takeoff distance dramatically
 - Decreases climb angle over ground
 - Increases landing distance significantly
-- **NEVER take off or land with tailwind**
+- **Never take off or land with a tailwind when it can be avoided**
 
 **Crosswind**:
 - Causes drift during flight
 - Complicates takeoff and landing
-- Requires crab angle to maintain ground track
-- Exceeding crosswind limits is dangerous
-- **Maximum recommended crosswind**: 5 mph for most operations
-
-**Recommended Wind Limits for PPCs**:
-- **Student/New Pilots**: 5 mph maximum, no gusts
-- **Experienced Pilots**: 8-10 mph, light gusts acceptable
-- **Maximum for Any Operation**: 15 mph with no gust factor
-- **Gusty Conditions**: Reduce limits or cancel flight
+- Requires a crab angle (or wing-low technique in some aircraft) to maintain ground track
+- Exceeding an aircraft's crosswind limits is dangerous
 
 ### Wind Indicators
 
@@ -143,7 +136,7 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 - Leaves rustle: 5-7 mph
 - Small branches move: 8-12 mph
 - Large branches move: 13-18 mph
-- Whole trees move: 19-24 mph (TOO STRONG)
+- Whole trees move: 19-24 mph (too strong for light-aircraft operations)
 
 ---
 
@@ -234,7 +227,6 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 **Dangers**:
 - Sudden loss of airspeed
 - Altitude loss
-- Wing collapse potential
 - Loss of control
 
 **Recognition**:
@@ -293,14 +285,14 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 - Cumulus (Cu) - puffy, fair weather
 - Towering Cumulus (TCu) - large, growing
 - Cumulonimbus (Cb) - thunderstorm cloud
-- Most important for PPC pilots to recognize
+- The most important type for any pilot to recognize
 
 #### **By Type**
 
 **Cumulus Clouds (puffy, heap-like)**:
 - Fair weather cumulus: scattered, flat base, limited vertical growth
 - Indicate thermals and rising air below
-- Generally safe to fly in early stages
+- Generally safe in early stages
 - **Towering Cumulus**: Growing vertically, may become thunderstorms
 - **Avoid flying** under large cumulus or towering cumulus
 
@@ -318,12 +310,9 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 ### Clouds and Flight Operations
 
 **Legal Requirements** (from 14 CFR 91.155):
-- Must maintain visual reference with surface
-- Cannot enter clouds
-- Must maintain cloud clearances:
-  - Day, below 1,200' AGL in Class G: Clear of clouds
-  - Day, above 1,200' AGL: 500' below, 1,000' above, 2,000' horizontal
-  - More restrictive in controlled airspace
+- Must maintain visual reference with surface for VFR flight
+- Cannot enter clouds without an instrument rating and clearance
+- Must maintain VFR cloud clearances, which vary by airspace class and altitude (see the Airspace and Regulations material for the full table)
 
 **Practical Considerations**:
 - Cloud base = ceiling
@@ -407,8 +396,8 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 
 ### Thunderstorm Avoidance
 
-**RULES FOR PPC PILOTS**:
-1. **NEVER fly near thunderstorms**
+**Rules for all pilots**:
+1. **Never fly near thunderstorms**
 2. **Minimum distance**: 20 miles (better: 50 miles)
 3. **Visual distance is deceptive** - storms are farther than they appear
 4. **Avoid flying under anvil clouds** (ice can fall)
@@ -478,13 +467,13 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 - Can form rapidly
 - May persist for hours
 
-**PPC Operations in Fog**:
+**Operating Around Fog**:
 - **Never take off** into fog
 - If fog develops while airborne:
   - Climb to stay above it (if safe)
   - Turn back if fog is localized
   - Land immediately if fog is extensive
-  - Do NOT attempt to descend through fog
+  - Do not attempt to descend through fog
 
 **Fog Forecasting**:
 - Check temperature-dewpoint spread
@@ -504,7 +493,7 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 - Smooth air
 - Stratiform clouds
 - Poor visibility (haze, pollution trapped)
-- Good for PPC flying (if visibility OK)
+- Generally favorable for flying (if visibility is adequate)
 
 **Unstable Air**:
 - Temperature decreases rapidly with altitude
@@ -513,7 +502,6 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 - Cumuliform clouds
 - Good visibility (turbulence mixes air)
 - Thunderstorm potential
-- Bad for PPC flying
 
 **Testing Stability**:
 - **Temperature-Dewpoint Spread**:
@@ -541,11 +529,6 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 - Can create fog
 - Smooth air aloft
 - Wind shear at inversion boundary
-
-**PPC Considerations**:
-- Morning inversions = smooth air but poor visibility
-- Low-level inversion = wind shear potential
-- Good time to fly if visibility acceptable
 
 ---
 
@@ -587,13 +570,6 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 - Pressure rise
 - Temperature drop
 
-**PPC Operations**:
-- **Don't fly near approaching cold front**
-- Strong winds and turbulence
-- Thunderstorms
-- Wind shear
-- Good flying after front passes and weather clears
-
 #### **Warm Front**
 
 **Characteristics**:
@@ -608,13 +584,6 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 - Poor visibility
 - Gradual temperature rise
 
-**PPC Operations**:
-- **Don't fly in warm front conditions**
-- Low clouds and fog
-- Rain
-- Poor visibility
-- Better flying after front passes
-
 #### **Stationary Front**
 
 **Characteristics**:
@@ -625,10 +594,6 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 - Similar to warm front
 - Prolonged poor conditions
 - May develop into wave cyclone
-
-**PPC Operations**:
-- Extended periods of unflyable weather
-- Wait for front to move or dissipate
 
 #### **Occluded Front**
 
@@ -642,9 +607,7 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 - Generally poor
 - Multiple weather hazards
 
-**PPC Operations**:
-- Treat as severe weather
-- Avoid flying
+> Don't fly near any active front. The strong winds, turbulence, wind shear, thunderstorms, low ceilings, and poor visibility associated with frontal passage are hazardous to light aircraft. Flying generally improves after a front passes and conditions clear.
 
 ---
 
@@ -664,7 +627,6 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 - www.1800wxbrief.com
 - Provides same information as phone briefing
 - Graphical interface
-- DUATS-like service
 
 **Commercial Weather Services**:
 - ForeFlight
@@ -686,7 +648,7 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 - **23/14**: Temperature 23°C, Dew point 14°C
 - **A2990**: Altimeter setting 29.90" Hg
 
-**Key Elements for PPC**:
+**Key Elements to read first**:
 - Wind speed and direction
 - Visibility
 - Cloud height (ceiling)
@@ -706,11 +668,11 @@ PPCs operate in the **Troposphere** - the lowest layer where:
 - May not be available for your location
 - Use in conjunction with other forecasts
 
-### Aviation Area Forecasts (FA) - Being Phased Out
+### Graphical Forecasts for Aviation (GFA)
 
-Being replaced by **Graphical Forecasts for Aviation (GFA)**:
+The legacy textual Aviation Area Forecast (FA) has been replaced by the **Graphical Forecasts for Aviation (GFA)**:
 - Online graphical tool
-- www.aviationweather.gov/gfa
+- aviationweather.gov/gfa
 - Shows:
   - Cloud cover
   - Weather hazards
@@ -727,10 +689,9 @@ Being replaced by **Graphical Forecasts for Aviation (GFA)**:
 - Wind from 270° at 15 knots
 - Temperature +5°C
 
-**Use for PPC**:
-- Generally not critical (low-altitude operations)
-- May help understand wind gradient
-- Useful if flying at higher altitudes
+**Use**:
+- Helps you understand the wind gradient between the surface and altitude
+- Useful for planning groundspeed and fuel on cross-country flights
 
 ### SIGMETs and AIRMETs
 
@@ -753,8 +714,8 @@ Being replaced by **Graphical Forecasts for Aviation (GFA)**:
 - Lines of thunderstorms
 - Issued for severe conditions
 
-**PPC Use**:
-- **Any SIGMET or AIRMET = Don't fly** (in affected area)
+**Use**:
+- **Any SIGMET or AIRMET in your area is a strong reason not to fly a light aircraft**
 - Check before every flight
 - Available through weather briefing
 
@@ -784,31 +745,17 @@ Being replaced by **Graphical Forecasts for Aviation (GFA)**:
 
 ### Personal Minimums
 
-**Develop Your Own Standards** (stricter than regulatory):
+Every pilot should develop **personal minimums** — self-imposed limits that are stricter than the regulatory minimums — for wind, gusts, crosswind, visibility, ceiling, temperature, and time of day. The specific numbers depend heavily on your aircraft category and your experience; see the category-specific weather chapter for your aircraft for recommended starting values.
 
-**Example Student/New Pilot Minimums**:
-- Wind: 5 mph maximum, no gusts
-- Visibility: 5 statute miles minimum
-- Clouds: Ceiling 3,000 feet AGL or higher
-- Temperature: Between 50-85°F
-- Time of day: 2 hours after sunrise to 2 hours before sunset
-- Weather trend: Stable or improving only
-
-**Example Experienced Pilot Minimums**:
-- Wind: 10 mph maximum, light gusts OK
-- Visibility: 3 statute miles minimum
-- Clouds: Ceiling 2,000 feet AGL or higher
-- Temperature: Between 40-95°F
-- Time of day: Sunrise to sunset (twilight if equipped)
-- Weather trend: Not rapidly deteriorating
-
-**Adjust for Conditions**:
+**Adjust for Conditions** — raise your minimums whenever risk is higher:
 - Unfamiliar area: Raise minimums
 - Fatigue: Raise minimums
-- Passenger: Raise minimums
-- Multiple risk factors: Raise minimums
+- Passenger aboard: Raise minimums
+- Multiple risk factors stacking up: Raise minimums
 
 ### PAVE Checklist
+
+A simple pre-flight risk framework:
 
 **P - Pilot**:
 - Experience level
@@ -824,7 +771,7 @@ Being replaced by **Graphical Forecasts for Aviation (GFA)**:
 - Weight and balance
 
 **V - enVironment**:
-- **Weather** (most important for PPCs)
+- **Weather**
 - Terrain
 - Airport conditions
 - Airspace
@@ -839,8 +786,7 @@ Being replaced by **Graphical Forecasts for Aviation (GFA)**:
 
 **Red Flags (No-Go Conditions)**:
 - Thunderstorms in area
-- Winds exceeding personal limits
-- Gusts exceeding 5 mph
+- Winds or gusts exceeding your personal limits
 - Approaching fronts
 - Deteriorating conditions
 - Low ceilings/visibility
@@ -865,7 +811,7 @@ Being replaced by **Graphical Forecasts for Aviation (GFA)**:
 **Decision Rules**:
 - When in doubt, don't go
 - It's always OK to cancel
-- Better to be on ground wishing you were flying than in air wishing you were on ground
+- Better to be on the ground wishing you were flying than in the air wishing you were on the ground
 - There will always be another day to fly
 - No flight is so important it's worth taking unnecessary risks
 
@@ -875,114 +821,54 @@ Being replaced by **Graphical Forecasts for Aviation (GFA)**:
 
 ### Spring
 
-**Characteristics**:
-- Frequent frontal passages
-- Severe weather season
-- Variable conditions
-- Temperature changes
+**Characteristics**: Frequent frontal passages, severe-weather season, variable conditions, temperature changes.
 
-**Challenges**:
-- Thunderstorms
-- High winds
-- Turbulence
-- Rapid changes
+**Challenges**: Thunderstorms, high winds, turbulence, rapid changes.
 
-**Best Practices**:
-- Check weather frequently
-- Be prepared to cancel
-- Avoid afternoon flights
-- Watch for building cumulus
+**Best Practices**: Check weather frequently, be prepared to cancel, avoid afternoon flights, watch for building cumulus.
 
 ### Summer
 
-**Characteristics**:
-- Heat and humidity
-- Afternoon thunderstorms
-- Hazy conditions
-- High density altitude
+**Characteristics**: Heat and humidity, afternoon thunderstorms, hazy conditions, high density altitude.
 
-**Challenges**:
-- Convective turbulence (midday)
-- Thunderstorm development
-- Reduced performance (high DA)
-- Heat stress on pilot
+**Challenges**: Convective turbulence (midday), thunderstorm development, reduced performance (high DA), heat stress on the pilot.
 
-**Best Practices**:
-- Fly early morning only
-- Avoid midday flights
-- Watch cloud development
-- Stay hydrated
+**Best Practices**: Fly early morning, avoid midday flights, watch cloud development, stay hydrated.
 
 ### Fall
 
-**Characteristics**:
-- Stable conditions (often best flying)
-- Cool, crisp air
-- Good visibility
-- Variable winds
+**Characteristics**: Stable conditions (often the best flying of the year), cool crisp air, good visibility, variable winds.
 
-**Challenges**:
-- Frontal systems
-- Wind events
-- Fog (cool mornings)
-- Shorter days
+**Challenges**: Frontal systems, wind events, fog (cool mornings), shorter days.
 
-**Best Practices**:
-- Excellent flying if conditions right
-- Watch for morning fog
-- Check frontal activity
-- Enjoy the best conditions
+**Best Practices**: Watch for morning fog, check frontal activity, enjoy the best conditions.
 
 ### Winter
 
-**Characteristics**:
-- Stable air masses
-- Clear conditions
-- Cold temperatures
-- Occasional winter storms
+**Characteristics**: Stable air masses, clear conditions, cold temperatures, occasional winter storms.
 
-**Challenges**:
-- Cold affecting pilot and equipment
-- Density altitude still a factor (weight/DA)
-- Ice on surfaces
-- Shorter days
+**Challenges**: Cold affecting pilot and equipment, density altitude still a factor, ice on surfaces, shorter days.
 
-**Best Practices**:
-- Dress warmly
-- Check equipment (batteries, fuel)
-- Be aware of freezing conditions
-- Watch for ice formation
+**Best Practices**: Dress warmly, check equipment (batteries, fuel), be aware of freezing conditions, watch for ice formation.
 
 ---
 
-## Summary: Weather Wisdom for PPC Pilots
+## Summary: Weather Wisdom
 
-1. **Weather is the #1 safety factor** - Never compromise on weather decisions
+1. **Weather is a top safety factor** - Never compromise on weather decisions.
+2. **Fly early or late** - Avoid midday thermals and turbulence.
+3. **Know your limits** - Establish and strictly follow personal minimums for your aircraft.
+4. **Stay away from thunderstorms** - Minimum 20 miles, preferably more.
+5. **Always take off and land into the wind** - Tailwind operations are dangerous.
+6. **Check weather before every flight** - Get an official briefing.
+7. **Watch for changes** - Weather can deteriorate quickly.
+8. **When in doubt, don't go out** - No flight is worth unnecessary risk.
+9. **Continuous learning** - Weather knowledge prevents accidents.
 
-2. **Fly early or late** - Avoid midday thermals and turbulence
-
-3. **Know your limits** - Establish and strictly follow personal minimums
-
-4. **Stay away from thunderstorms** - Minimum 20 miles, preferably more
-
-5. **Wind is critical** - Maximum 15 mph, lower limits for less experienced pilots
-
-6. **Always take off and land into the wind** - Tailwind operations are dangerous
-
-7. **Check weather before every flight** - Get official briefing
-
-8. **Watch for changes** - Weather can deteriorate quickly
-
-9. **When in doubt, don't go out** - No flight is worth unnecessary risk
-
-10. **Continuous learning** - Weather knowledge prevents accidents
-
-**Remember**: Good pilots constantly work to improve their weather knowledge and decision-making skills. The atmosphere is always changing, and there is always more to learn. Your life and the lives of any passengers depend on making sound weather-based decisions every time you fly.
+**Remember**: Good pilots constantly work to improve their weather knowledge and decision-making skills. The atmosphere is always changing, and there is always more to learn.
 
 ---
 
-**Next Module**: [Aircraft Systems and Components](../04_aircraft_systems/01_engine_systems.md)
-
-**Document Version**: 1.0
-**Last Updated**: 2025-11-08
-**For Training Purposes**: This document provides educational content on powered parachute meteorology. Always obtain official weather briefings and use sound judgment for flight operations.
+**Document Version**: 2.0
+**Last Updated**: 2026-06-04
+**For Training Purposes**: This document provides educational content on aviation meteorology. Always obtain official weather briefings and use sound judgment for flight operations.
